@@ -28,17 +28,30 @@ The automation suite validates core user workflows such as account registration,
 ---
 
 ## 📂 Project Structure
+
 Magento_Java_Selenium_Automation
 │
-├── src/
-│ └── test/
-│ └── java/
-│ └── com.automation.magento.testcases
-│ ├── RegisterTest.java
-│ ├── LoginTest.java
-│ ├── CompareProductTest.java
-│ ├── WishlistTest.java
-│ └── CheckoutTest.java
+├── src
+│   ├── main
+│   │   └── java
+│   │       └── com.automation.magento
+│   │           ├── base
+│   │           │   └── BaseTest.java
+│   │           │
+│   │           └── utilities
+│   │               └── ConfigReader.java
+│
+│   └── test
+│       └── java
+│           └── com.automation.magento.tests
+│               ├── RegisterTest.java
+│               ├── LoginTest.java
+│               ├── CompareProductTest.java
+│               ├── WishlistTest.java
+│               └── CheckoutTest.java
+│
+├── drivers
+│   └── geckodriver.exe
 │
 ├── pom.xml
 └── README.md
@@ -47,7 +60,7 @@ Magento_Java_Selenium_Automation
 
 ## ▶ How to Run the Project
 1. Clone the repository: https://github.com/bushrafirdous123/Magento_Java_Selenium_Automation.git
-2. 
+
 2. Open the project in **Eclipse**.
 
 3. Ensure:
