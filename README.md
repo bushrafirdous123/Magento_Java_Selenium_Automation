@@ -32,29 +32,22 @@ The automation suite validates core user workflows such as account registration,
 Magento_Java_Selenium_Automation
 │
 ├── src
-│   ├── main
-│   │   └── java
-│   │       └── com.automation.magento
-│   │           ├── base
-│   │           │   └── BaseTest.java
-│   │           │
-│   │           └── utilities
-│   │               └── ConfigReader.java
+│   └── com.automation.magento.testcases
+│       ├── TestCase1.java
+│       ├── TestCase2.java
+│       ├── TestCase3.java
+│       ├── TestCase4.java
+│       ├── TestCase5.java
+│       ├── TestCase6.java
+│       ├── TestCase7.java
+│       ├── TestCase8.java
+│       ├── TestCase9.java
+│       ├── TestCase10.java
+│       └── TestCase11.java
 │
-│   └── test
-│       └── java
-│           └── com.automation.magento.tests
-│               ├── RegisterTest.java
-│               ├── LoginTest.java
-│               ├── CompareProductTest.java
-│               ├── WishlistTest.java
-│               └── CheckoutTest.java
-│
-├── drivers
-│   └── geckodriver.exe
-│
-├── pom.xml
-└── README.md
+├── JRE System Library [JavaSE-17]
+├── Referenced Libraries
+└── .classpath / .project
 
 ---
 
